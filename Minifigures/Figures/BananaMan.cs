@@ -8,7 +8,7 @@ namespace Minifigures.Figures
 
         public int JumpCount { get; set; }
 
-        public bool _satisfiedCondition { get; set; }
+        public bool _satisfiedCondition { get; private set; }
 
         public BananaMan (string name)
         {

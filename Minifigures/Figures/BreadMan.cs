@@ -8,7 +8,7 @@ namespace Minifigures.Figures
 
         public int ShoutCount { get; set; }
 
-        public bool _satisfiedCondition { get; set; }
+        public bool _satisfiedCondition { get; private set; }
 
         public BreadMan(string name)
         {
